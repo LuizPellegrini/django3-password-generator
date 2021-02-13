@@ -1,0 +1,20 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+<div class="container text-center">
+    <h2>This web site automatically generate passwords</h2>
+    <h3>To accomplish that we need to inform:</h3>
+    <ul class="list-group">
+        <li class="list-group-item">Password length</li>
+        <li class="list-group-item">If uppercase characters must be included</li>
+        <li class="list-group-item">If numbers must be included</li>
+        <li class="list-group-item">If special characters must be included</li>
+    </ul>
+    <h5>Application developed by Luiz C. Pellegrini</h5>
+    <p>2021 - Brazil</p>
+        
+    <a href="{% url 'home' %}" class="btn btn-warning">Home</a>
+    <br>
+    <br>
+    <a href="{% url 'password' %}" class="btn btn-warning">Password</a>
+
+</div>
